@@ -283,7 +283,7 @@ header {
     border-radius: 30px;
 }
 
-.carousel-indicators {
+.carousel-indicators_home {
     position: absolute;
     left: 0%;
     right: auto;
@@ -297,7 +297,7 @@ header {
     z-index: 5;
 }
 
-.carousel-indicators [data-bs-target] {
+.carousel-indicators_home [data-bs-target] {
     width: 7px;
     height: 7px;
     border-radius: 50%;
@@ -307,7 +307,7 @@ header {
     margin: 0;
 }
 
-.carousel-indicators .active {
+.carousel-indicators_home .active {
     width: 8px;
     height: 8px;
     background-color: transparent;
@@ -323,7 +323,7 @@ header {
         width: 100%;
         margin-left: 15%
     }
-    .carousel-indicators {
+    .carousel-indicators_home {
         top: 50%;
         left: 20px;
         opacity: 1;
@@ -681,7 +681,7 @@ header {
 .qualityText{
     margin-right: 20%;
 }
-.carousel-indicators {
+.carousel-indicators_quality {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -691,7 +691,7 @@ header {
     margin-bottom: 0;
 }
 
-.carousel-indicators button {
+.carousel-indicators_quality button {
     width: 10px !important;
     height: 10px !important;
     border-radius: 50%;
@@ -700,7 +700,7 @@ header {
     opacity: 0.3;
 }
 
-.carousel-indicators button.active {
+.carousel-indicators_quality button.active {
     opacity: 1;
 }
 @media (max-width:991px) {
