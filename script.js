@@ -62,12 +62,12 @@ function startCount(target, elementId, speed) {
     });
 }
 window.addEventListener("load", function () {
-    startCount(25, "Manufacture", 40);
-    startCount(100, "Customer", 40);
+    startCount(25, "Manufacture", 85);
+    startCount(100, "Customer", 20);
     startCount(50, "Alloy", 40);
-    startCount(50, "Special", 20);
-    startCount(49, "Crane", 20);
-    startCount(20, "Metal", 40)
+    startCount(50, "Special", 40);
+    startCount(49, "Crane", 40);
+    startCount(20, "Metal", 80)
 
     ScrollTrigger.refresh();
 });
